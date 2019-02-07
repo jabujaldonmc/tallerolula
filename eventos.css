@@ -1,0 +1,59 @@
+/* fichero css de ejercicio eventos */
+
+/* estilo de letra */
+@import url('https://fonts.googleapis.com/css?family=Inder|Kodchasan');
+
+
+/* 
+	font-family: 'Kodchasan', sans-serif;
+	font-family: 'Inder', sans-serif;
+*/
+
+span{
+	text-align: right;
+	font-family: 'Kodchasan', sans-serif;
+	font-style: oblique;
+	font-size: 2.2em;
+}
+
+#titulo{
+	font-family: 'Inder', sans-serif;
+	font-size: 3em;
+}
+
+
+	#capacolor1 {
+		background-color:#b36ae2;
+		box-shadow: 2px 2px 5px gray;
+		border-radius: 10px;
+	}
+
+	#capacolor2 {
+		background-color:#f4901a;
+		box-shadow: 2px 2px 5px gray;
+		border-radius: 10px;
+	}
+
+	#capacolor3 {
+		background-color:#c82517;
+		box-shadow: 2px 2px 5px gray;
+		border-radius: 10px;
+	}
+
+	#capacolor4 {
+		background-color:#51a7fa;
+		box-shadow: 2px 2px 5px gray;
+		border-radius: 10px;
+	}
+
+    #capacolor5 {
+		background-color:#f6d427;
+		box-shadow: 2px 2px 5px gray;
+		border-radius: 10px;
+	}
+
+	#capacolor6 {
+		background-color:#70bf41;
+		box-shadow: 2px 2px 5px gray;
+		border-radius: 10px;
+	}	

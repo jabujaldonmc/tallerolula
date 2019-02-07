@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ejercicio Eventos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="eventos.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+	
+	
+</style>
+
+
+
+
+</head>
+
+<body>
+	<div class="container">
+		<div id="titulo">JERARQUIA DE COLORES  PARA SUBRAYADO</div>
+		
+	<!-- Una fila para por cada color -->	
+		<div class="row">
+			<div class="col-xs-4" >
+				<div id="capacolor1" onmouseover="color('capatexto1','#b36ae2')" onmouseout="color('capatexto1', '#ffffff')"><br><br><br></div>
+			</div>
+			
+			<div class="col-xs-1"></div>
+			
+			<div id="capatexto1" class="col-xs-7">
+				<div>
+					Color para subrayado <span >Titulo</span>
+				</div>
+			</div>		
+		</div>
+		<br>
+	<!-- fin primera fila -->
+	
+
+	<!-- Una fila para por cada color -->	
+		<div class="row">
+			<div class="col-xs-4" >
+				<div id="capacolor2" onmouseover="color('capatexto2','#f4901a')" onmouseout="color('capatexto2','#ffffff')"><br><br><br></div>
+			</div>
+			
+			<div class="col-xs-1"></div>
+			
+			<div id="capatexto2" class="col-xs-7">
+				<div>
+					Color para subrayado <span>Subtítulo o Apartado</span>
+				</div>
+			</div>
+		</div>
+		<br>
+	<!-- fin segunda fila -->
+
+
+	<!-- Una fila para por cada color -->	
+		<div class="row">
+			<div class="col-xs-4" >
+				<div id="capacolor3" onmouseover="color('capatexto3','#c82517')" onmouseout="color('capatexto3','#ffffff')"><br><br><br></div>
+			</div>
+			<div class="col-xs-1"></div>
+			<div id="capatexto3" class="col-xs-7">
+				<div>
+					Color para subrayado <span>Lesgilación, plazos, fechas y tratados</span>
+				</div>
+			</div>
+		</div>
+		<br>
+	<!-- fin tercera fila -->
+
+   <!-- Una fila para por cada color -->	
+		<div class="row">
+			<div class="col-xs-4" >
+				<div id="capacolor4" onmouseover="color('capatexto4','#51a7fa')" onmouseout="color('capatexto4','#ffffff')"><br><br><br></div>
+			</div>
+			<div class="col-xs-1"></div>
+			<div id="capatexto4" class="col-xs-7">
+				<div>
+					Color para subrayado <span>Palabra clave, enumeración y listados</span>
+				</div>
+			</div>
+		</div>
+		<br>
+	<!-- fin cuarta fila -->
+
+	
+   <!-- Una fila para por cada color -->	
+		<div class="row">
+			<div class="col-xs-4" >
+				<div id="capacolor5" onmouseover="color('capatexto5','#f6d427')" onmouseout="color('capatexto5','#ffffff')"><br><br><br></div>
+			</div>
+			<div class="col-xs-1"></div>
+			<div id="capatexto5" class="col-xs-7">
+				<div>
+					Color para subrayado <span>Definiciones o ideas generales</span>
+				</div>
+			</div>
+		</div>
+		<br>
+	<!-- fin quinta fila -->
+
+
+	<!-- Una fila para por cada color -->	
+		<div class="row">
+			<div class="col-xs-4" >
+				<div id="capacolor6" onmouseover="color('capatexto6','#70bf41')" onmouseout="color('capatexto6','#ffffff')"><br><br><br></div>
+			</div>
+			<div class="col-xs-1"></div>
+			<div id="capatexto6" class="col-xs-7">
+				<div>
+					Color para subrayado <span>Ejemplos o supuestos</span>
+				</div>
+			</div>
+			<br>
+		</div>
+	<!-- fin sexta fila -->
+
+	<br><br><br><br>
+	<button class="btn btn-info"><a href="pdf/ejercicio eventos.pdf">Ver Ejercicio</a></button>
+	<br><br>
+
+</div>
+
+		
+<script>
+	/* Esta función tiene dos variables, una le da el nombre del objeto
+	tenemos que cambiar el color y otra variable le da el color a cambiar. */
+ 	
+ 	function color(nombrecapa,nombrecolor)  	{ 
+    document.getElementById(nombrecapa).style.background= nombrecolor;
+	
+	}
+</script>
+			
+</body>
+</html>
